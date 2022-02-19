@@ -12,7 +12,7 @@ metadata:
 spec:
   containers:
   - args:
-    - --context=git://github.com/kjenney/my-rest-service.git#refs/heads/test
+    - --context=git://github.com/kjenney/my-rest-service.git
     - --destination=docker-registry.registry.svc.cluster.local:5000/test/app:1.0
     image: gcr.io/kaniko-project/executor:latest
     imagePullPolicy: Always
