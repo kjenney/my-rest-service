@@ -24,7 +24,7 @@ spec:
         app: flask
     spec:
       containers:
-      - image: localhost:31500/test/my-rest-service:v3
+      - image: localhost:31500/test/my-rest-service:v4
         name: flask
         resources: {}
 ---

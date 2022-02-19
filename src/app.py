@@ -20,6 +20,15 @@ def show_details() :
            "</body>" + \
            "</html>"
 
+@app.route("/health")
+def show_details() :
+    return "<html>" + \
+           "<head><title>K8S + Flask Demo</title></head>" + \
+           "<body>" + \
+           "Success" + \
+           "</body>" + \
+           "</html>"
+
 @app.route("/json")
 def send_json() :
     global startTime
