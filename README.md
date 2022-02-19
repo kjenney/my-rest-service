@@ -6,7 +6,7 @@ A REST service that is hosted on Rancher Desktop, has a private Docker registry,
 
 To deploy the service first we need to create the local Docker registry and create a Kaniko executor to build and push the image.
 
-## Create Registry
+## Create Docker Registry
 
     $ kubectl apply -f registry.yaml
 
