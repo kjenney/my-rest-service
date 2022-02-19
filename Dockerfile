@@ -2,7 +2,9 @@ FROM python:alpine
 
 LABEL maintainer="Jeeva S. Chelladhurai"
 
-RUN pip install flask
+COPY src/requirements.txt /requirements.txt
+
+RUN pip install -r /requirements.txt
 
 COPY src /src/
 

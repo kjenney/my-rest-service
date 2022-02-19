@@ -13,7 +13,7 @@ spec:
   containers:
   - args:
     - --context=git://github.com/kjenney/my-rest-service.git
-    - --destination=docker-registry.registry.svc.cluster.local:5000/test/my-rest-service:v2
+    - --destination=docker-registry.registry.svc.cluster.local:5000/test/my-rest-service:v3
     image: gcr.io/kaniko-project/executor:latest
     imagePullPolicy: Always
     name: kaniko
