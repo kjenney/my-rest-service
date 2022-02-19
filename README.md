@@ -1,6 +1,6 @@
 # my-rest-service
 
-A REST service that is hosted on Kubernetes.
+A REST service that is hosted on Rancher Desktop, has a private Docker registry, and uses Kaniko to build images. I did this to avoid Docker limits.
 
 ## Installation
 
