@@ -21,7 +21,7 @@ def show_details() :
            "</html>"
 
 @app.route("/health")
-def show_details() :
+def show_health() :
     return "<html>" + \
            "<head><title>K8S + Flask Demo</title></head>" + \
            "<body>" + \
